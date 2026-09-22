@@ -1,6 +1,7 @@
 # Odoo Connection
 
-`odoo_client.py` connects to an Odoo instance over XML-RPC using an
+`odoo_client.py` connects to the `facelove-cosmetics-llc` Odoo instance
+(https://facelove-cosmetics-llc.odoo.com) over XML-RPC using an
 RPC-scoped API key.
 
 ## Setup
