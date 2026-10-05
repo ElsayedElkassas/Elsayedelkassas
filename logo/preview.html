@@ -1,0 +1,80 @@
+<title>Socius Finance Logo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600&family=Figtree:wght@400;500&display=swap">
+<style>
+/* Layout: one column of concept sections, each a light board + dark board side by side, then size tests */
+:root{
+  --bg:#f5f3ee; --surface:#ffffff; --ink:#12343b; --gold:#b8893b; --muted:#5d6b6d; --line:#dcd8cf;
+  --dark:#0f2a30; --cream:#f3efe6;
+  --display:"Sora", "Helvetica Neue", Arial, sans-serif;
+  --body:"Figtree", "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0b1d21;--surface:#12282d;--ink:#f3efe6;--muted:#9fb0b2;--line:#24403f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0b1d21;--surface:#12282d;--ink:#f3efe6;--muted:#9fb0b2;--line:#24403f;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;padding-inline:20px;padding-block:48px 72px}
+.wrap{max-width:1040px;margin:0 auto;display:grid;gap:64px}
+header h1{font-family:var(--display);font-weight:600;font-size:32px;margin:0 0 8px;text-wrap:balance}
+header p{margin:0;color:var(--muted);max-width:62ch}
+section{display:grid;gap:20px}
+.head{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px}
+.head h2{font-family:var(--display);font-weight:600;font-size:22px;margin:0}
+.head span{color:var(--muted);font-size:14px}
+section > p{margin:0;color:var(--muted);max-width:68ch}
+.boards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.board{border-radius:6px;padding:48px 32px;display:flex;align-items:center;justify-content:center;min-height:240px}
+.light{background:#ffffff;border:1px solid var(--line);--m-ink:#12343b;--w-ink:#12343b;--w-sub:#5d6b6d}
+.dark{background:var(--dark);--m-ink:#f3efe6;--w-ink:#f3efe6;--w-sub:#b9c6c4}
+.lockup{display:flex;align-items:center;gap:16px}
+.lockup svg{height:64px;width:auto;flex:none}
+.word{font-family:var(--display);line-height:1.05;color:var(--w-ink)}
+.word b{display:block;font-weight:600;font-size:30px;letter-spacing:-.01em}
+.word i{display:block;font-style:normal;font-weight:400;font-size:14px;letter-spacing:.32em;text-transform:uppercase;color:var(--w-sub);margin-top:6px}
+.sizes{display:flex;flex-wrap:wrap;align-items:flex-end;gap:24px;padding:24px;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+.tile{display:grid;place-items:center;border-radius:22%;background:var(--dark);--m-ink:#f3efe6}
+.tile svg{width:64%;height:auto}
+.sizes small{display:block;text-align:center;color:var(--muted);font-size:13px;margin-top:6px;font-variant-numeric:tabular-nums}
+.bare{--m-ink:var(--ink)}
+footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:20px}
+</style>
+
+<div class="wrap">
+<header>
+  <h1>Socius Finance</h1>
+  <p>Two monogram directions where the S and F share strokes. <em>Socius</em> is Latin for partner, so in both marks one letter cannot stand without the other.</p>
+</header>
+
+<section>
+  <div class="head"><h2>A · Interlock</h2><span>Recommended</span></div>
+  <p>The F's top bar and stem curve into the top half of an S. The gold stroke finishes the S. Read the dark shape alone and you get F. Read the full form and you get S. Compact and square, so it works as an app icon and favicon.</p>
+  <div class="boards">
+    <div class="board light"><div class="lockup">
+      <svg viewBox="12 10 76 80" aria-hidden="true"><g fill="none" stroke-width="10" stroke-linecap="butt" stroke-linejoin="round"><path d="M78 20 H42 A15 15 0 0 0 27 35 V85" stroke="var(--m-ink)"/><path d="M32 50 H57 A15 15 0 0 1 57 80 H40" stroke="var(--gold)"/></g></svg>
+      <div class="word"><b>Socius</b><i>Finance</i></div></div></div>
+    <div class="board dark"><div class="lockup">
+      <svg viewBox="12 10 76 80" aria-hidden="true"><g fill="none" stroke-width="10" stroke-linecap="butt" stroke-linejoin="round"><path d="M78 20 H42 A15 15 0 0 0 27 35 V85" stroke="var(--m-ink)"/><path d="M32 50 H57 A15 15 0 0 1 57 80 H40" stroke="var(--gold)"/></g></svg>
+      <div class="word"><b>Socius</b><i>Finance</i></div></div></div>
+  </div>
+  <div class="sizes">
+    <div><div class="tile" style="width:120px;height:120px"><svg viewBox="12 10 76 80"><g fill="none" stroke-width="10" stroke-linejoin="round"><path d="M78 20 H42 A15 15 0 0 0 27 35 V85" stroke="var(--m-ink)"/><path d="M32 50 H57 A15 15 0 0 1 57 80 H40" stroke="var(--gold)"/></g></svg></div><small>app icon</small></div>
+    <div><div class="tile" style="width:56px;height:56px"><svg viewBox="12 10 76 80"><g fill="none" stroke-width="10" stroke-linejoin="round"><path d="M78 20 H42 A15 15 0 0 0 27 35 V85" stroke="var(--m-ink)"/><path d="M32 50 H57 A15 15 0 0 1 57 80 H40" stroke="var(--gold)"/></g></svg></div><small>56 px</small></div>
+    <div class="bare"><svg viewBox="12 10 76 80" style="width:32px;height:auto;display:block;margin:0 auto"><g fill="none" stroke-width="10" stroke-linejoin="round"><path d="M78 20 H42 A15 15 0 0 0 27 35 V85" stroke="var(--m-ink)"/><path d="M32 50 H57 A15 15 0 0 1 57 80 H40" stroke="var(--gold)"/></g></svg><small>32 px</small></div>
+    <div class="bare"><svg viewBox="12 10 76 80" style="width:16px;height:auto;display:block;margin:0 auto"><g fill="none" stroke-width="10" stroke-linejoin="round"><path d="M78 20 H42 A15 15 0 0 0 27 35 V85" stroke="var(--m-ink)"/><path d="M32 50 H57 A15 15 0 0 1 57 80 H40" stroke="var(--gold)"/></g></svg><small>favicon</small></div>
+  </div>
+</section>
+
+<section>
+  <div class="head"><h2>B · Shared bar</h2><span>Wider, more of a wordmark feel</span></div>
+  <p>One continuous top line runs from the S into the F. The S hands over to the F at the exact point where the stem drops. Reads as "SF" straight away. Better for letterheads and signage than for small icons.</p>
+  <div class="boards">
+    <div class="board light"><div class="lockup">
+      <svg viewBox="10 12 94 78" aria-hidden="true"><g fill="none" stroke-width="9" stroke-linecap="butt" stroke-linejoin="miter"><path d="M79.5 20 H38 A15 15 0 0 0 38 50 H52 A15 15 0 0 1 52 80 H18" stroke="var(--m-ink)"/><path d="M100 20 H84 V84.5 M88.5 50 H100" stroke="var(--gold)"/></g></svg>
+      <div class="word"><b>Socius</b><i>Finance</i></div></div></div>
+    <div class="board dark"><div class="lockup">
+      <svg viewBox="10 12 94 78" aria-hidden="true"><g fill="none" stroke-width="9" stroke-linecap="butt" stroke-linejoin="miter"><path d="M79.5 20 H38 A15 15 0 0 0 38 50 H52 A15 15 0 0 1 52 80 H18" stroke="var(--m-ink)"/><path d="M100 20 H84 V84.5 M88.5 50 H100" stroke="var(--gold)"/></g></svg>
+      <div class="word"><b>Socius</b><i>Finance</i></div></div></div>
+  </div>
+</section>
+
+<footer>Colours: deep teal #12343B, brass #B8893B, cream #F3EFE6 on dark. Wordmark set in Sora. SVG files for both marks, light and dark, are in the <code>logo/</code> folder of the repo.</footer>
+</div>
