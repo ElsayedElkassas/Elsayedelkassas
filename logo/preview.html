@@ -4,13 +4,13 @@
 <style>
 /* Layout: one column of concept sections, each a light board + dark board side by side, then size tests */
 :root{
-  --bg:#f5f3ee; --surface:#ffffff; --ink:#12343b; --gold:#b8893b; --muted:#5d6b6d; --line:#dcd8cf;
-  --dark:#0f2a30; --cream:#f3efe6;
+  --bg:#f4f3f0; --surface:#ffffff; --ink:#111111; --gold:#b8893b; --muted:#5f5d58; --line:#dddad3;
+  --dark:#111111; --cream:#f3efe6;
   --display:"Sora", "Helvetica Neue", Arial, sans-serif;
   --body:"Figtree", "Helvetica Neue", Arial, sans-serif;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0b1d21;--surface:#12282d;--ink:#f3efe6;--muted:#9fb0b2;--line:#24403f;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#0b1d21;--surface:#12282d;--ink:#f3efe6;--muted:#9fb0b2;--line:#24403f;color-scheme:dark}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1a1917;--surface:#22211e;--ink:#f3efe6;--muted:#a9a59c;--line:#33312c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1a1917;--surface:#22211e;--ink:#f3efe6;--muted:#a9a59c;--line:#33312c;color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;padding-inline:20px;padding-block:48px 72px}
 .wrap{max-width:1040px;margin:0 auto;display:grid;gap:64px}
@@ -23,8 +23,8 @@ section{display:grid;gap:20px}
 section > p{margin:0;color:var(--muted);max-width:68ch}
 .boards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
 .board{border-radius:6px;padding:48px 32px;display:flex;align-items:center;justify-content:center;min-height:240px}
-.light{background:#ffffff;border:1px solid var(--line);--m-ink:#12343b;--w-ink:#12343b;--w-sub:#5d6b6d}
-.dark{background:var(--dark);--m-ink:#f3efe6;--w-ink:#f3efe6;--w-sub:#b9c6c4}
+.light{background:#ffffff;border:1px solid var(--line);--m-ink:#111111;--w-ink:#111111;--w-sub:#111111}
+.dark{background:var(--dark);--m-ink:#f3efe6;--w-ink:#f3efe6;--w-sub:#f3efe6}
 .lockup{display:flex;align-items:center;gap:16px}
 .lockup svg{height:64px;width:auto;flex:none}
 .word{font-family:var(--display);line-height:1.05;color:var(--w-ink)}
@@ -76,5 +76,5 @@ footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);paddin
   </div>
 </section>
 
-<footer>Colours: deep teal #12343B, brass #B8893B, cream #F3EFE6 on dark. Wordmark set in Sora. SVG files for both marks, light and dark, are in the <code>logo/</code> folder of the repo.</footer>
+<footer>Colours: black #111111 for the name and the main stroke, brass #B8893B for the accent, cream #F3EFE6 on black backgrounds. Wordmark set in Sora. SVG files for both marks, light and dark, are in the <code>logo/</code> folder of the repo.</footer>
 </div>

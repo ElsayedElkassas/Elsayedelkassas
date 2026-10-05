@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 100" role="img" aria-label="Socius Finance">
   <g fill="none" stroke-width="9" stroke-linecap="butt" stroke-linejoin="miter">
-    <path d="M79.5 20 H38 A15 15 0 0 0 38 50 H52 A15 15 0 0 1 52 80 H18" stroke="#12343b"/>
+    <path d="M79.5 20 H38 A15 15 0 0 0 38 50 H52 A15 15 0 0 1 52 80 H18" stroke="#111111"/>
     <path d="M100 20 H84 V84.5 M88.5 50 H100" stroke="#b8893b"/>
   </g>
 </svg>
